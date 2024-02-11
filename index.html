@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png" type="icon">
+
+    <title>Anão Store</title>
+
+</head>
+<body>
+
+    <header>
+
+        <div>
+            <img src="assets/logo.png" alt="Logo">
+            <span style="vertical-align: 15px; font-weight: 300; font-size: 30px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">ANÃO STORE</span>
+          </div>
+
+        <div id="carrinho-header">
+            <h2 id="carrinho-texto">Carrinho (0)⠀⠀</h2>
+            <ul id="lista-carrinho"></ul>
+        </div>
+    </header>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <div style="text-align: center;">
+        <p style="color: #ffffff;">--------------------------------------------------------------------------------------</p>
+        <h1 style="color: #ffffff; text-shadow: 0 0 10px #ffffff;">ANÃO STORE</h1>
+        <h3 style="color: #ffffff;">A Loja mais segura e completa na venda de anões</h3>
+        <p style="color: #ffffff;">--------------------------------------------------------------------------------------</p>
+    </div>
+    
+
+    <h2 id="center">Anões Básicos</h2>
+
+    <main>
+
+        <div class="item">
+            <img src="assets/anaocachacero.jfif" alt="Anão Cachaceiro">
+            <p><strong>Anão Cachaceiro</strong> | R$ 10.00</p>
+            <button onclick="adicionarAoCarrinho('Anão Cachaceiro', 10)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/anaocowboy.jpg" alt="Anão Cowboy">
+            <p><strong>Anão Cowboy</strong> | R$ 20.00</p>
+            <button onclick="adicionarAoCarrinho('Anão Cowboy', 20)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/anaoflamenguista.jpg" alt="Anão Flamenguista">
+            <p><strong>Anão Flamenguista</strong> | R$ 30.00</p>
+            <button onclick="adicionarAoCarrinho('Anão Flamenguista', 30)">Adicionar ao Carrinho</button>
+        </div>
+
+    </main>
+
+    <h2 id="center">Anões Lendários</h2>
+
+    <main>
+
+        <div class="item">
+            <img src="assets/manelgomianao.jpg" alt="Manoel Gomes Anão">
+            <p><strong>Manoel Gomes Anão</strong> | R$ 1M</p>
+            <button id="estoque">Fora de Estoque</button>
+        </div>
+
+    <div class="item">
+            <img src="assets/anaodancarino.gif" alt="Anão Dançarino">
+            <p><strong>Anão Dançarino</strong> | R$ 100.00</p>
+            <button onclick="adicionarAoCarrinho('Anão Dançarino', 100)">Adicionar ao Carrinho</button>
+        </div>
+
+    </main>
+
+        <h2 id="center">Anões Youtubers/Streamers</h2>
+
+    <main>
+            
+        <div class="item">
+            <img src="assets/celboanao.jpg" alt="Cellbit Anão">
+            <p><strong>Cellbit Anão</strong> | R$ 32.60</p>
+            <button onclick="adicionarAoCarrinho('Cellbit Anão', 32.60)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/felpoanao.jpg" alt="Felps Anão">
+            <p><strong>Felps Anão</strong> | R$ 55.90</p>
+            <button onclick="adicionarAoCarrinho('Felps Anão', 55.90)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/meiaumanao.jpg" alt="Meia Um Anão">
+            <p><strong>Meia Um Anão</strong> | R$ 61.61</p>
+            <button onclick="adicionarAoCarrinho('Meia Um Anão', 61.61)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/rakinanao.jpg" alt="Rakin Anão">
+            <p><strong>Rakin Anão</strong> | R$ 70.00</p>
+            <button onclick="adicionarAoCarrinho('Rakin Anão', 70)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/guaxinimanao.jpg" alt="Guaxinim Anão">
+            <p><strong>Guaxinim Anão</strong> | R$ 200.00</p>
+            <button onclick="adicionarAoCarrinho('Guaxinim Anão', 200)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/lubaanao.jpg" alt="Luba Anão">
+            <p><strong>Luba Anão</strong> | R$ 199.99</p>
+            <button onclick="adicionarAoCarrinho('Luba Anão', 199.99)">Adicionar ao Carrinho</button>
+        </div>
+        
+    </main>
+
+    <h2 id="center">Anões Famosos</h2>
+
+    <main>
+
+        <div class="item">
+            <img src="assets/anaojackchan.jpg" alt="Jack Chan Anão">
+            <p><strong>Jack Chan Anão</strong> | R$ 79.99</p>
+            <button onclick="adicionarAoCarrinho('Jack Chan Anão', 79.99)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/keanureevesanao.jpg" alt="Keanu Reeves Anão">
+            <p><strong>Keanu Reeves Anão</strong> | R$ 100.00</p>
+            <button onclick="adicionarAoCarrinho('Keanu Reeves Anão', 100)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/jacquinho.jpg" alt="Jacquinho">
+            <p><strong>Jacquinho</strong> | R$ 125.00</p>
+            <button onclick="adicionarAoCarrinho('Jacquinho', 125)">Adicionar ao Carrinho</button>
+        </div>
+
+    </main>
+
+    <h2 id="center">Anões Politicos</h2>
+
+    <main>
+
+        <div class="item">
+            <img src="assets/zemiudo.webp" alt="Zé Miudo">
+            <p><strong>Zé Miudo</strong> | R$ 02.00</p>
+            <button onclick="adicionarAoCarrinho('Zé Miudo', 2)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/lulaanao.jpg" alt="Lula Anão">
+            <p><strong>Lula Anão</strong> | R$ 0.02</p>
+            <button id="estoque">Fora de Estoque</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/vladomiro.jpg" alt="Vladimir Putinho">
+            <p><strong>Vladimir Putinho</strong> | ₽ 18,37</p>
+            <button onclick="adicionarAoCarrinho('Vladimir Putinho', 1)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/trump.jpg" alt="Donald Trump Anão">
+            <p><strong>Donald Trump Anão</strong> | US$ 05.00</p>
+            <button onclick="adicionarAoCarrinho('Donald Trump Anão', 10000)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/moroanao.jpg" alt="Sergio Moro Anão">
+            <p><strong>Sergio Moro Anão</strong> | R$ 02.50</p>
+            <button onclick="adicionarAoCarrinho('Sergio Moro Anão', 2.50)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/bolsonaroanao.webp" alt="Bolsonaro Anão">
+            <p><strong>Bolsonaro Anão</strong> | R$ 0.02</p>
+            <button id="estoque">Fora de Estoque</button>
+        </div>
+
+    </main>
+
+    <h2 id="center">Anões Jogadores</h2>
+
+    <main>
+
+        <div class="item">
+            <img src="assets/neymar.jpg" alt="Neymar Anão">
+            <p><strong>Neymar Anão</strong> | R$ 150.00</p>
+            <button onclick="adicionarAoCarrinho('Neymar Anão', 150)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/messi.jpg" alt="Messi Anão">
+            <p><strong>Messi Anão</strong> | AR$ 1M</p>
+            <button onclick="adicionarAoCarrinho('Messi Anão', 2.50)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="item">
+            <img src="assets/mbappe.webp" alt="Mbappé Anão">
+            <p><strong>Mbappé Anão</strong> | R$ 00.03</p>
+            <button onclick="adicionarAoCarrinho('Mbappé Anão', 0.03)">Adicionar ao Carrinho</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Direitos Autorais &copy; 1945-2024, Anão Store. Todos os Direitos Reservados.</p>
+    <a href="https://migatte-no-ultizin.webnode.page/" target="_blank">FINISAUTEMPOTENTIAE © | Ulti Corp. 2019 - 2022</a>
+    <p>Desenvolvido por <a href="https://github.com/UltimateStrength" target="_blank">Marcos (Ulti)</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
